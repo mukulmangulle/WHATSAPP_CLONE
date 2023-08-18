@@ -1,0 +1,652 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: #fcf5eb;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: #fcf5eb;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(179, 179, 179);
+
+}
+
+.what-logo {
+    width: 140px;
+}
+
+.logo {
+    width: 300px;
+}
+
+.nav-list {
+    width: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-anchor {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+
+.nav-anchor:hover {
+    border-bottom: 2px solid #25D366;
+}
+
+.whatweb {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+
+.btn-10 {
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 30px;
+    border: 1px solid black;
+    background-color: #25D366;
+}
+
+.nav-btn {
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* section */
+.hero-section {
+    width: 100%;
+    height: 700px;
+}
+
+.hero-text {
+    width: 600px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.private-msg {
+    font-size: 70px;
+    width: 360px;
+    height: 200px;
+    color: white;
+}
+
+.simple {
+    font-size: 20px;
+    font-weight: 500;
+    width: 360px;
+    height: 100px;
+    color: white;
+}
+
+.btn-container {
+    width: 500px;
+    position: relative;
+    left: 70px;
+}
+
+.btn-9 {
+    font-size: 20px;
+    padding: 15px 50px;
+    border-radius: 40px;
+    border: none;
+    background-color: #25D366;
+}
+
+.bg-img-container {
+    width: 100%;
+    height: 680px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-img {
+    width: 95%;
+    height: 650px;
+    background-image: url('./image/./316546300_547692113846445_7299710494491288098_n.png');
+    border-radius: 20px;
+    background-size: cover;
+    display: flex;
+}
+
+.img21 {
+    width: 450px;
+    position: relative;
+    left: 300px;
+    top: 30px;
+}
+
+.img22 {
+    width: 400px;
+    position: relative;
+    left: 300px;
+}
+
+.img23 {
+    width: 400px;
+    position: relative;
+    left: 350px;
+    bottom: 40px;
+}
+
+.img24 {
+    width: 450px;
+    position: relative;
+    left: 300px;
+    bottom: 40px;
+}
+
+.img25 {
+    width: 450px;
+    position: relative;
+    left: 300px;
+    bottom: 40px;
+}
+
+.img26 {
+    width: 450px;
+    position: relative;
+    left: 300px;
+    bottom: 75px;
+}
+
+.img27 {
+    width: 450px;
+    position: relative;
+    left: 250px;
+    bottom: 75px;
+}
+
+.data-charge {
+    width: 100%;
+    height: 20px;
+    text-indent: 920px;
+    background-color: #fcf5eb;
+}
+
+.data-per {
+    font-size: 15px;
+    color: #5E5E5E;
+}
+
+.chat-img {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fcf5eb;
+}
+
+.chat-img img {
+    width: 1300px;
+}
+
+.private-messaging {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fcf5eb;
+}
+
+.private-messaging p {
+    font-size: 45px;
+    font-weight: 500;
+    text-align: center;
+    color: #1C1E21;
+}
+
+.chat-img2 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fcf5eb;
+}
+
+.chat-img2 img {
+    width: 1300px;
+}
+
+.never-miss {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fcf5eb;
+}
+
+.never-para {
+    width: 60%;
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.never-para h1 {
+    font-size: 55px;
+    font-weight: 500;
+    width: 520px;
+}
+
+.never-para p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #1C1E21;
+    width: 520px;
+}
+
+.btn-container2 {
+    width: 520px;
+    font-size: 20px;
+}
+
+.btn-container2 button {
+    font-size: 20px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #25D366;
+    color: #1C1E21;
+}
+
+.never-img {
+    width: 40%;
+    height: 600px;
+}
+
+.speak-freely {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #111B21;
+}
+
+.speak-img {
+    width: 55%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.speak-text {
+    width: 45%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.speak-text h1 {
+    font-size: 60px;
+    font-weight: 500;
+    color: white;
+}
+
+.speak-text span {
+    color: #25D366;
+}
+
+.speak-text p {
+    font-size: 20px;
+    color: white;
+}
+
+
+.never-img2 {
+    width: 40%;
+    height: 1000px;
+    background-image: url("./image/./318716844_644367477472796_6799212725643495984_n.png");
+    background-repeat: no-repeat;
+    background-size: 400px;
+}
+
+.never-img2 img {
+    position: relative;
+    top: 150px;
+}
+
+.never-para2 {
+    width: 60%;
+    height: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.never-para2 h1 {
+    font-size: 55px;
+    font-weight: 500;
+    width: 520px;
+}
+
+.never-para2 p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #1C1E21;
+    width: 520px;
+}
+
+
+.speak-freely2 {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fcf5eb;
+}
+
+.speak-img2 {
+    width: 55%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pro {
+    width: 400px;
+    position: relative;
+    left: 200px;
+}
+
+.lady {
+    position: relative;
+    right: 80px;
+}
+
+.speak-text2 {
+    width: 45%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.speak-text2 h1 {
+    font-size: 60px;
+    font-weight: 500;
+    color: #1C1E21;
+}
+
+.speak-text2 p {
+    font-size: 20px;
+    color: #1C1E21;
+}
+
+.connect-with {
+    width: 100%;
+    height: 700px;
+    background-color: #E6FFDA;
+    display: flex;
+    align-items: center;
+    border-radius: 0 0 50px 50px;
+}
+
+.connect-heading {
+    width: 50%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.connect-heading h1 {
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.button-less {
+    width: 400px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.less {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(159, 156, 156);
+    border-radius: 40px;
+    margin-right: 20px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(146, 142, 142);
+}
+
+.greater {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin-right: 20px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.introducing {
+    width: 50%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.whatsapp-img {
+    width: 500px;
+}
+
+.whatsapp-img img {
+    width: 30px;
+}
+
+.channel {
+    width: 500px;
+    height: 230px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.channel h2 {
+    font-size: 39px;
+    font-weight: 500;
+}
+
+.read-more-btn {
+    width: 500px;
+    height: 80px;
+}
+
+.read-more-btn button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 50px;
+    border: 1px solid black;
+    background: none;
+}
+
+.footer2 {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-btn {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.what-the {
+    width: 200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.what-the img {
+    width: 50px;
+}
+
+.what-the span {
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+
+.logo-btn button {
+    font-size: 20px;
+    padding: 15px 50px;
+    border-radius: 50px;
+    background-color: #25D366;
+    border: none;
+}
+
+.what-we {
+    width: 150px;
+    height: 230px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.what-we p {
+    color: white;
+}
+
+.what-we ul {
+    height: 180px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.what-we ul a {
+    font-size: 21px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.grey-line {
+    width: 90%;
+    height: 1px;
+    background-color: grey;
+}
+
+.footer1 {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.terms {
+    width: 310px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.terms p {
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+
+.icon-container {
+    width: 250px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.twitter {
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-container img {
+    width: 50px;
+}
+
+
+.lang button {
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-weight: 500;
+    color: white;
+    background: none;
+}
+
+option {
+    color: black;
+}
